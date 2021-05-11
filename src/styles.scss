@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    gap: 50px;
+}
+
+.board-container {
+    width: fit-content;
+}
+
+.top-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile {
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+
+    &.opened {
+        background: #a9a9a9;
+    }
+}
+
+.tile-color-mine {
+    color: red;
+}
+
+.tile-color-1 {
+    color: #1500fe;
+}
+
+.tile-color-2 {
+    color: #007f00;
+}
+
+.tile-color-3 {
+    color: #ff0000;
+}
+
+.tile-color-4 {
+    color: #090083;
+}
+
+.tile-color-5 {
+    color: #890000;
+}
+
+.tile-color-6 {
+    color: #007f7f;
+}
+
+.tile-color-7 {
+    color: #030303;
+}
+
+.tile-color-8 {
+    color: #7d7d7d;
+}
